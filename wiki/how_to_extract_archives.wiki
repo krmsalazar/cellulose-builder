@@ -1,0 +1,13 @@
+#summary How to extract archives of different formats (lzma, gzip, rar).
+
+= Compression Protocols =
+
+There are several different compression protocols, among them `lzma`, `gzip` and `rar`.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages

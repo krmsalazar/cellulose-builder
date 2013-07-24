@@ -1,8 +1,8 @@
-#summary How to extract archives of different formats (lzma, gzip, rar).
+#summary How to extract archives of different formats (lzma, gzip, rar,zip).
 
-= Compression Protocols =
+= Compression Methods =
 
-There are several different compression protocols, among them `lzma`, `gzip` and `rar`.
+There are several different [https://en.wikipedia.org/wiki/Compression_algorithm compression algorithms], and several software applications for compressing and decompressing data according to those algorithms, among them `lzma`, `gzip`, `rar`, `tar` and `zip`. Usually `tar` and `gzip` are available on Linux systems without need of installation. On most Linux systems one can have `lzma`, `rar` or `zip` installed using `apt-get`, `synaptic`, `aptitude`, `yum` or equivalent package management software.
 
 
 = Details =

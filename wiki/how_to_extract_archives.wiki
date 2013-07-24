@@ -12,7 +12,7 @@ After [http://code.google.com/p/cellulose-builder/downloads/list downloading] on
 cd Downloads
 }}}
 and extract according to the instructions you will find below.
-You may wish to move the archive file to another location in your directory tree before extracting it, or you may extract first and then move the extracted directory elsewhere, it doesn't matter which you do first.
+If you wish to have `cellulose-builder`'s parent directory in a different location in your directory tree you may move the archive file to that location before extracting it, or you may extract first and then move the extracted directory, it doesn't matter which you do first.
 Depending on which archive file you choose to download you will need different command lines to extract it, as exemplified below.
 
 == .tar.gz ==
@@ -40,5 +40,5 @@ unzip cellulose_builder_month_year.zip
 }}}
 
  After extracting `cellulose-builder`'s directory from its archive file, follow
- the [http://code.google.com/p/cellulose-builder/#User_Guide User Guide] and install
+ the [http://code.google.com/p/cellulose-builder/#User_Guide User Guide] to install
  dependencies.

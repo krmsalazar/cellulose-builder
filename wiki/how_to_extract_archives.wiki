@@ -1,13 +1,25 @@
-#summary How to extract archives of different formats (lzma, gzip, rar,zip).
+#summary How to extract archives of different formats (lzma, gzip, rar, zip).
 
 = Compression Methods =
 
 There are several different [https://en.wikipedia.org/wiki/Compression_algorithm compression algorithms], and several software applications for compressing and decompressing data according to those algorithms, among them `lzma`, `gzip`, `rar`, `tar` and `zip`. Usually `tar` and `gzip` are available on Linux systems without need of installation. On most Linux systems one can have `lzma`, `rar` or `zip` installed using `apt-get`, `synaptic`, `aptitude`, `yum` or equivalent package management software.
 
 
-= Details =
+= Extracting `cellulose-builder` =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+{{{
+tar -zxvf cellulose-builder_month_year.tar.gz
+}}}
+
+{{{
+unlzma cellulose_builder_month_year.tar.lzma
+tar -xvf cellulose_builder_month_year.tar
+}}}
+
+{{{
+rar x cellulose_builder_month_year.rar
+}}}
+
+{{{
+unzip cellulose_builder_month_year.rar
+}}}

@@ -2,10 +2,15 @@
 
 = Compression Methods =
 
-There are several different [https://en.wikipedia.org/wiki/Compression_algorithm compression algorithms], and several software applications for compressing and decompressing data according to those algorithms, among them `lzma`, `gzip`, `rar`, `tar` and `zip`. Usually `tar` and `gzip` are available on Linux systems without need of installation. On most Linux systems one can have `lzma`, `rar` or `zip` installed using `apt-get`, `synaptic`, `aptitude`, `yum` or equivalent package management software.
+There are several different [https://en.wikipedia.org/wiki/Compression_algorithm compression algorithms], and several software applications for compressing and decompressing data according to those algorithms, among them `lzma`, `gzip`, `rar`, `tar` and `zip`. Typically `tar` and `gzip` are available on Linux systems without need of installation. On most Linux systems one can have `lzma`, `rar` or `zip` installed using `apt-get`, `synaptic`, `aptitude`, `yum` or equivalent package management software.
 
 
 = Extracting `cellulose-builder` =
+
+After [http://code.google.com/p/cellulose-builder/downloads/list downloading] one of the four `cellulose-builder` archive files available, navigate into the directory that contains it, for instance
+{{{
+cd Downloads
+}}}
 
 You will need different command lines depending on which archive file you choose to download.
 

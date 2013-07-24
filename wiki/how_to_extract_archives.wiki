@@ -6,7 +6,6 @@ There are several different [https://en.wikipedia.org/wiki/Compression_algorithm
 
 
 = Extracting `cellulose-builder` =
-
 After [http://code.google.com/p/cellulose-builder/downloads/list downloading] one of the four `cellulose-builder` archive files available, navigate into the directory that contains it, for instance
 {{{
 cd Downloads

@@ -7,19 +7,30 @@ There are several different [https://en.wikipedia.org/wiki/Compression_algorithm
 
 = Extracting `cellulose-builder` =
 
+You will need different command lines depending on which archive file you choose to download.
+
+== .tar.gz ==
+
 {{{
 tar -zxvf cellulose-builder_month_year.tar.gz
 }}}
 
+== .tar.lzma ==
+Install `lzma`, then:
 {{{
 unlzma cellulose_builder_month_year.tar.lzma
 tar -xvf cellulose_builder_month_year.tar
 }}}
 
+== .rar ==
+
+Install `rar`, then
 {{{
 rar x cellulose_builder_month_year.rar
 }}}
 
+== zip ==
+For this you will need `zip`'s companion program `unzip`.
 {{{
 unzip cellulose_builder_month_year.rar
 }}}

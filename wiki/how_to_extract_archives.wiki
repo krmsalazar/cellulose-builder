@@ -13,6 +13,8 @@ cd Downloads
 and extract according to the instructions you will find below.
 If you wish to have `cellulose-builder`'s parent directory in a different location in your directory tree you may move the archive file to that location before extracting it, or you may extract first and then move the extracted directory, it doesn't matter which you do first.
 Depending on which archive file you choose to download you will need different command lines to extract it, as exemplified below.
+#Navigate into the directory containing the `cellulose-builder` archive file you #have downloaded and type the appropriate commands according to the archive file
+#format
 
 == .tar.gz ==
 {{{
